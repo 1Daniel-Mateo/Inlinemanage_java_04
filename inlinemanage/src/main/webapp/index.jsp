@@ -11,7 +11,10 @@
 <body>
     <header>
         <nav>
-            <a href="JavaWeb?enviar=user">Usuarios</a>
+            <form action="ControllerInline" method="post">
+            <a href="ControllerInline?enviar=user">Usuarios</a>
+            <button type="submit" name="enviar" value="user">Usuarios</button>
+            </form>
         </nav>
     </header>
     <h1>Bienvenido al index de InlineManage</h1>
